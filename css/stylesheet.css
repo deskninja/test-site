@@ -87,9 +87,11 @@ html {
 }
 
 .logo {
-  height: 1rem;
+  width: 5rem;
   overflow: hidden;
+  background-repeat: no-repeat;
   background-size: contain;
+  background-position: center center;
 }
 
 /*overriden from Bootsrap*/
