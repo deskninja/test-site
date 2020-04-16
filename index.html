@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/stylesheet.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="/js/scripts.js"></script>
+    <title>Hytorc Site</title>
+  </head>
+
+  <body>
+    <header class="page-header">
+      <nav class="navbar navbar-expand-md navbar-light bg-dark">
+        <a href="{{.Site.BaseURL}}" class="navbar-brand"><img class="logo" src="/images/hytorc-logo.png" alt="Hytorc"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="{{.Site.BaseURL}}">
+                <h4 class="right-padding nav-text">
+                  Home
+                </h4>
+              </a>
+            </li>
+            <!-- Dropdown menu for products-->
+            <h4 class="right-padding">
+              <div class="dropdown show">
+                <a class="nav-link dropdown-toggle nav-text" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Products
+                </a>
+                <div class="dropdown-menu  dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item" href="/products">New</a>
+                  <a class="dropdown-item" href="#">Rentals</a>
+                  <a class="dropdown-item" href="#">Maintenance</a>
+                </div>
+              </div>
+            </h4>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/services">
+                <h4 class="right-padding nav-text">
+                  Services
+                </h4>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/contact-us">
+                <h4 class="right-padding nav-text">
+                  Contact Us
+                </h4>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="below-header-spacing">
+
+    </div>
+
+
+    <section>
+      <div class="col-md-12 mb-4">
+        <div class="view d-flex align-items-center justify-content-center mountain">
+          <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
+            <div>
+              <a href="#" class="home-page-brand"><img src="/images/hytorc-logo.png" alt="Hytorc"></a>
+              <h5>Doing it right since 1968</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Projects section v.4-->
+    <section>
+      <!--Grid row-->
+      <div class="row mx-1">
+
+        <!--Grid column-->
+        <div class="col-md-12 mb-4">
+          <div class="view d-flex align-items-center justify-content-center wrench">
+            <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
+              <div>
+                <h3 class="card-title py-3 font-weight-bold"><strong>Products</strong></h3>
+                <p class="pb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem,
+                  optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos.
+                  Odit sed qui, dolorum!</p>
+                <a class="btn btn-outline-danger"><i class="far fa-clone left"></i> View Products</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-6 mb-4">
+          <div class="view d-flex align-items-center justify-content-center training">
+            <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
+              <div>
+                <h3 class="card-title py-3 font-weight-bold"><strong>Training</strong></h3>
+                <p class="pb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem,
+                  optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos.
+                  Odit sed qui, dolorum!</p>
+                <a class="btn btn-outline-danger"><i class="far fa-clone left"></i>View Training</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-6 mb-4">
+          <div class="view d-flex align-items-center justify-content-center upkeep">
+            <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
+              <div>
+                <h3 class="card-title py-3 font-weight-bold"><strong>Upkeep/Rentals</strong></h3>
+                <p class="pb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem,
+                  optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos.
+                  Odit sed qui, dolorum!</p>
+                <a class="btn btn-outline-danger"><i class="far fa-clone left"></i>View Upkeep/Rentals</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Grid column-->
+
+      </div>
+      <!--Grid row-->
+
+    </section>
+    <!--Projects section v.4-->
+
+    <!--Grid column-->
+    <section>
+      <div class="col-md-12 mb-4">
+        <div class="view d-flex align-items-center justify-content-center team">
+          <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
+            <div>
+              <h3 class="card-title py-3 font-weight-bold"><strong>Our Team</strong></h3>
+              <p class="pb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem,
+                optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos.
+                Odit sed qui, dolorum!</p>
+              <a class="btn btn-outline-danger"><i class="far fa-clone left"></i> View Our Team</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Grid column-->
+
+    <div>
+      <!-- Footer -->
+      <footer class="page-footer font-small text-white-50 bg-dark pt-4">
+
+        <!-- Footer Elements -->
+        <div class="container">
+
+          <!--Grid row-->
+          <div class="row">
+
+            <!--Grid column-->
+            <div class="col-md-6 mb-4 align-top">
+              <!-- Map code -->
+              <ul class="list-unstyled center-content">
+                <li>
+                  <h5 class="d-flex align-items-center justify-content-center text-uppercase font-weight-bold">Location</h5>
+                </li>
+                <li class="map_canvas d-flex align-items-center justify-content-center">
+                  <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1EqNrHnEc1McLy0WJ5MEU3YX3v9JFeYUD" width="300rem" height="300rem"></iframe>
+                </li>
+                <li>
+                  <a class="d-flex align-items-center justify-content-center text-white-50" href="https://www.google.com/maps/place/9815+N+6180+W,+Highland,+UT+84003/@40.410037,-111.8089524,17z/data=!3m1!4b1!4m5!3m4
+                  !1s0x874d80f8364b7665:0xd165e612152af507!8m2!3d40.410037!4d-111.8067637">9815 N 6180 W Highland, UT 84003</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <div class="col-md-6 mb-4 align-top">
+              <!-- Links that can be contacted -->
+              <ul class="list-unstyled center-content">
+                <li>
+                  <h5 class="d-flex align-items-center justify-content-center d-flex align-items-start text-uppercase font-weight-bold"><a class="text-white-50" href="/contact-us">Contact Us</a></h5>
+                </li>
+                <li>
+                  <a class="d-flex align-items-center justify-content-center text-white-50" href="#">Sales</a>
+                </li>
+                <li>
+                  <a class="d-flex align-items-center justify-content-center text-white-50" href="#">Maintenance</a>
+                </li>
+                <li>
+                  <a class="d-flex align-items-center justify-content-center text-white-50" href="#">Emergency Maintenance</a>
+                </li>
+                <li>
+                  <h5 class="d-flex align-items-center justify-content-center text-uppercase font-weight-bold top-pad"><a class="text-white-50" href="#">Sales Representatives</a></h5>
+                </li>
+                <li>
+                  <a class="d-flex align-items-center justify-content-center text-white-50" href="#">Territory Manager: Randy Smith</a>
+                </li>
+                <li>
+                  <a class="d-flex align-items-center justify-content-center text-white-50" href="#">Utah: Tyler Smith</a>
+                </li>
+                <li>
+                  <a class="d-flex align-items-center justify-content-center text-white-50" href="#">Nevada: Robert McManus</a>
+                </li>
+                <li>
+                  <a class="d-flex align-items-center justify-content-center text-white-50" href="#">Colorado: Duane Allendore</a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+          <!--Grid row-->
+
+        </div>
+        <!-- Footer Elements -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">
+          © 2020 Copyright Hytorc Rocky Mountain
+        </div>
+        <!-- Copyright -->
+
+      </footer>
+      <!-- Footer -->
+    </div>
+
+
+  </body>
+</html>
