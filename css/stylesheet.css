@@ -166,7 +166,7 @@ html {
 
 /*test background image*/
 .upkeep {
-  background-image: url('images/circular-saw-cuts-beam.jpg');
+  background-image: url('https://s3.amazonaws.com/hytorc-uat-hytorc-webassets/gallery/ice/ice-2.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
