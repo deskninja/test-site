@@ -149,7 +149,7 @@ html {
 
 /*test background image*/
 .team {
-  background-image: url('images/office-team-business-meeting.jpg');
+  background-image: url('https://pbs.twimg.com/media/EEC0uIFX4AMpOaU?format=jpg&name=small');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
