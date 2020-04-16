@@ -122,17 +122,26 @@ html {
 }
 
 
-.logo {
-  width: 5rem;
-  overflow: hidden;
+
+/******************background images****************/
+
+.gray {
+  background-color: #4F787E;
+  border-radius: 2rem;
+}
+
+.electric {
+  background-image: url(/images/electric.png);
+  background-repeat: no-repeat;
+  background-size:contain;
+}
+
+.hydrolic {
+  background-image: url(/images/hydrolic.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
 }
-
-
-
-/******************background images****************/
 
 /*test background image*/
 .mountain {
