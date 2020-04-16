@@ -89,6 +89,7 @@ html {
 .logo {
   height: 1rem;
   overflow: hidden;
+  background-size: contain;
 }
 
 /*overriden from Bootsrap*/
