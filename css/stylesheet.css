@@ -1,0 +1,183 @@
+footer {
+  display:none;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: auto;
+  width: 100%;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.below-header-spacing {
+  margin-bottom: 5.5rem;
+}
+
+/*overriden from Bootsrap*/
+.btn-outline-danger {
+  border-color: #314C64 !important;
+}
+
+/*overriden from Bootsrap*/
+.btn-outline-danger:hover{
+  background-color: #314C64 !important;
+  border-color: #314C64 !important;
+}
+
+/*overriden from Bootsrap*/
+.btn-secondary {
+  background-color: #314C64 !important;
+  color: white !important;
+}
+
+/*overriden from Bootsrap*/
+.btn-secondary:hover {
+  background-color: #595959 !important;
+  border-color: #595959 !important;
+}
+
+/* Contact Us Page container */
+.col-container {
+  display: flex;
+  width: 100%;
+}
+
+/* Contact Us Page collum */
+.col {
+  flex: 1;
+  padding: 1rem;
+}
+
+/* If the browser window is smaller than 600px, make the columns stack on top of each other */
+@media only screen and (max-width: 600px) {
+  .col-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    max-width: 480px;
+    margin: 0 auto;
+    padding-left:15px;
+    padding-right:15px;
+  }
+}
+
+.header-color {
+  background-color: #213E4D;
+}
+
+.home-page-brand {
+  height: 1rem;
+  overflow: hidden;
+}
+
+.inline {
+  display: inline-block !important;
+}
+
+.logo {
+  height: 1rem;
+  overflow: hidden;
+}
+
+/*overriden from Bootsrap*/
+/*Text size for nav bar links in the header*/
+.nav-text {
+  font-size: .85rem;
+  color: #78B3BC !important;
+}
+
+.nav-text:hover {
+  color: white !important;
+}
+
+/*adds padding to the right for the nav bar*/
+.right-padding {
+  padding-right: 1rem;
+}
+
+
+
+/******************background images****************/
+
+.gray {
+  background-color: #4F787E;
+  border-radius: 2rem;
+}
+
+.electric {
+  background-image: url(/images/electric.png);
+  background-repeat: no-repeat;
+  background-size:contain;
+}
+
+.hydrolic {
+  background-image: url(/images/hydrolic.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+/*test background image*/
+.mountain {
+  background-image: url(/images/Magic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 1.5rem;
+}
+
+/*test background image*/
+.river {
+  background-image: url(/images/freshwater-mountain-creek.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+/*test background image*/
+.team {
+  background-image: url(/images/office-team-business-meeting.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 1.5rem;
+}
+
+/*test background image*/
+.training {
+  background-image: url(/images/hands-on-blueprints.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 1.5rem;
+}
+
+/*test background image*/
+.upkeep {
+  background-image: url(/images/circular-saw-cuts-beam.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 1.5rem;
+}
+
+/*test background image*/
+.wrench {
+  background-image: url(/images/placeholderImage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 1.5rem;
+}
