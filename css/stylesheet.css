@@ -157,7 +157,7 @@ html {
 
 /*test background image*/
 .training {
-  background-image: url('https://media.glassdoor.com/l/de/df/44/bd/training.jpg');
+  background-image: url('https://hytorc-prod-hytorc-webassets.s3.amazonaws.com/RepPages/HYTORCSouthernCalifornia/HYTORC-California-Charles-Bisland.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
