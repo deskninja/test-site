@@ -117,13 +117,13 @@ html {
 }
 
 .electric {
-  background-image: url(images/electric.png);
+  background-image: url('images/electric.png');
   background-repeat: no-repeat;
   background-size:contain;
 }
 
 .hydrolic {
-  background-image: url(images/hydrolic.png);
+  background-image: url('images/hydrolic.png');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -131,7 +131,7 @@ html {
 
 /*test background image*/
 .mountain {
-  background-image: url(images/Magic.jpg);
+  background-image: url('images/Magic.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -140,7 +140,7 @@ html {
 
 /*test background image*/
 .river {
-  background-image: url(images/freshwater-mountain-creek.jpg);
+  background-image: url('images/freshwater-mountain-creek.jpg');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -148,7 +148,7 @@ html {
 
 /*test background image*/
 .team {
-  background-image: url(images/office-team-business-meeting.jpg);
+  background-image: url('images/office-team-business-meeting.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -157,7 +157,7 @@ html {
 
 /*test background image*/
 .training {
-  background-image: url(images/hands-on-blueprints.jpg);
+  background-image: url('images/hands-on-blueprints.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -166,7 +166,7 @@ html {
 
 /*test background image*/
 .upkeep {
-  background-image: url(images/circular-saw-cuts-beam.jpg);
+  background-image: url('images/circular-saw-cuts-beam.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -175,7 +175,7 @@ html {
 
 /*test background image*/
 .wrench {
-  background-image: url(images/placeholderImage.jpg);
+  background-image: url('images/placeholderImage.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
