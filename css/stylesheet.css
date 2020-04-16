@@ -122,30 +122,21 @@ html {
 }
 
 
-
-/******************background images****************/
-
-.gray {
-  background-color: #4F787E;
-  border-radius: 2rem;
-}
-
-.electric {
-  background-image: url(/images/electric.png);
-  background-repeat: no-repeat;
-  background-size:contain;
-}
-
-.hydrolic {
-  background-image: url(/images/hydrolic.png);
+.logo {
+  width: 5rem;
+  overflow: hidden;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
 }
 
+
+
+/******************background images****************/
+
 /*test background image*/
 .mountain {
-  background-image: url(/images/Magic.jpg);
+  background-image: url('http://s1.bwallpapers.com/thumbs2/2014/07/29/blue-mountains_094313861.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -154,7 +145,7 @@ html {
 
 /*test background image*/
 .river {
-  background-image: url(/images/freshwater-mountain-creek.jpg);
+  background-image: url('images/freshwater-mountain-creek.jpg');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -162,7 +153,7 @@ html {
 
 /*test background image*/
 .team {
-  background-image: url(/images/office-team-business-meeting.jpg);
+  background-image: url('https://pbs.twimg.com/media/EEC0uIFX4AMpOaU?format=jpg&name=small');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -171,7 +162,7 @@ html {
 
 /*test background image*/
 .training {
-  background-image: url(/images/hands-on-blueprints.jpg);
+  background-image: url('https://hytorc-prod-hytorc-webassets.s3.amazonaws.com/RepPages/HYTORCSouthernCalifornia/HYTORC-California-Charles-Bisland.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -180,7 +171,7 @@ html {
 
 /*test background image*/
 .upkeep {
-  background-image: url(/images/circular-saw-cuts-beam.jpg);
+  background-image: url('https://s3.amazonaws.com/hytorc-uat-hytorc-webassets/gallery/ice/ice-2.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -189,7 +180,7 @@ html {
 
 /*test background image*/
 .wrench {
-  background-image: url(/images/placeholderImage.jpg);
+  background-image: url('https://img.directindustry.com/images_di/projects/images-og/trade-your-old-bolting-tool-hytorc-86260-13089431.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
