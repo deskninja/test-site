@@ -157,7 +157,7 @@ html {
 
 /*test background image*/
 .training {
-  background-image: url('images/hands-on-blueprints.jpg');
+  background-image: url('https://media.glassdoor.com/l/de/df/44/bd/training.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
